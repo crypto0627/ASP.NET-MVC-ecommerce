@@ -26,7 +26,7 @@ namespace Menu.Data
                 .HasForeignKey(i => i.IngredientId);
 
             modelBuilder.Entity<Dish>().HasData(
-                new Dish { Id = 1, Name = "Margheritta", Price = 7.50, ImageUrl = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fohsweetbasil.com%2Ffour-cheese-margarita-pizza%2F&psig=AOvVaw1kQNHQ1k9ZLCcgeUFVHvMN&ust=1715693496736000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIC3sL7eioYDFQAAAAAdAAAAABAE" }
+                new Dish { Id = 1, Name = "Margheritta", Price = 7.50, ImageUrl = "https://ohsweetbasil.com/wp-content/uploads/four-cheese-margherita-pizza-recipe-12-770x1155.jpg" }
             );
             modelBuilder.Entity<Ingredient>().HasData(
                 new Ingredient { Id = 1, Name = "Tomato Sauce" },
