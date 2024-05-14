@@ -1,0 +1,23 @@
+﻿#suggestions {
+    max-height: 200px; /* 最大高度 */
+    overflow-y: auto; /* 如果建議列表太長，則添加垂直滾動條 */
+    border: 1px solid #ccc; /* 邊框 */
+    border-radius: 4px; /* 圓角 */
+    background-color: #fff; /* 背景顏色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 陰影 */
+    position: absolute; /* 絕對定位 */
+    z-index: 1000; /* 使其顯示在最上層 */
+    width: 200px; /* 寬度 */
+}
+
+    /* 樣式當用戶懸停時 */
+    #suggestions div:hover {
+        background-color: #007bff; /* 藍色背景 */
+        color: #fff; /* 白色文字 */
+        cursor: pointer; /* 鼠標指針 */
+    }
+
+    /* 項目之間的間距 */
+    #suggestions div {
+        padding: 8px;
+    }
